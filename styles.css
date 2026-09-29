@@ -75,3 +75,24 @@ li {
   flex: 1;
   margin-right: 8px;
 }
+
+.btn-grp {
+  display: flex;
+  gap: 6px;
+}
+.update-btn,
+.delete-btn {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 13px;
+}
+
+.update-btn {
+  background: #000;
+}
+.delete-btn {
+  background: red;
+}
